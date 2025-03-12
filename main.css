@@ -1,0 +1,53 @@
+body {
+    background-color: aqua;
+    /* Pašalina naršyklės numatytuosius kraštelius */
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+p {
+    text-align: center;
+    margin: 0 auto;
+}
+div {
+    text-align: center;
+    width: 100%; 
+    display: flex; 
+    justify-content: center;
+    
+}
+
+div1 {
+    width: 20%;  
+    float: left; 
+    margin-left: 3%;
+    
+   
+}
+div2 {
+    width: 15% ; 
+    float: left; 
+    margin-left: 30%; 
+    margin-top: 3%;
+}
+
+
+table {
+    border-collapse: collapse; 
+    width: 50%; 
+    margin: left 18%; 
+    text-align: center; 
+    box-shadow: 10px 5px 5px lightseagreen; 
+    outline-style: double;
+}
+tr{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+}
