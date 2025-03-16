@@ -1,6 +1,6 @@
 body {
     background-color: aqua;
-    /* Pašalina naršyklės numatytuosius kraštelius */
+
 }
 
 .center-container {
@@ -18,7 +18,7 @@ div {
     text-align: center;
     width: 100%; 
     display: flex; 
-    justify-content: center;
+    justify-content:first baseline;
     
 }
 
@@ -38,15 +38,19 @@ div2 {
 
 
 table {
-    border-collapse: collapse; 
-    width: 50%; 
+ 
+    border: 1px solid;
+    width: 100%; 
     margin: left 18%; 
     text-align: center; 
     box-shadow: 10px 5px 5px lightseagreen; 
     outline-style: double;
 }
-tr{
+tr {
     border: 1px solid black;
+    
+}
+tr:hover {background-color: skyblue;
 }
 th{
     border: 1px solid black;
